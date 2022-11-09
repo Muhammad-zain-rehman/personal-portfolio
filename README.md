@@ -31,7 +31,7 @@
 - HOME
 - ABOUT
 - RESUME
-    - EDUCATION
+    - 
     - SKILLS
     - EXPERIENCE
     - PROJECTS 
@@ -191,7 +191,7 @@ yarn start
 │   │   └── svg
 │   │       ├── about
 │   │       ├── contacts
-│   │       ├── education
+│   │       ├── 
 │   │       ├── experience
 │   │       ├── projects
 │   │       ├── skills
@@ -217,10 +217,10 @@ yarn start
 │   │   ├── Contacts
 │   │   │   ├── Contacts.css
 │   │   │   └── Contacts.js
-│   │   ├── Education
-│   │   │   ├── Education.css
-│   │   │   ├── Education.js
-│   │   │   └── EducationCard.js
+│   │   ├── 
+│   │   │   ├── .css
+│   │   │   ├── .js
+│   │   │   └── Card.js
 │   │   ├── Experience
 │   │   │   ├── Experience.css
 │   │   │   ├── Experience.js
@@ -260,7 +260,7 @@ yarn start
 │   │   ├── achievementData.js
 │   │   ├── blogData.js
 │   │   ├── contactsData.js
-│   │   ├── educationData.js
+│   │   ├── Data.js
 │   │   ├── experienceData.js
 │   │   ├── headerData.js
 │   │   ├── projectsData.js
@@ -324,7 +324,7 @@ export const headerData = {
 
 > #### About You - [`src/data/aboutData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/aboutData.js)
 
-> #### Education details - [`src/data/educationData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/educationData.js) 
+> ####  details - [`src/data/Data.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/Data.js) 
 
 > #### Enter your Projects - [`src/data/projectsData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/projectsData.js)
 
@@ -346,7 +346,7 @@ export const headerData = {
 
 ```javascript
 // EXAMPLE
-export const educationData = [
+export const Data = [
     {
         id: 1,
         institution: '-- INSTITUTION NAME --',

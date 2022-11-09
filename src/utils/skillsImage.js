@@ -73,6 +73,12 @@ import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
+import sourceTree from '../assets/png/sourceTree.png'
+import oop from '../assets/png/oop.png'
+import es6 from '../assets/png/es6.png'
+import redux from '../assets/png/redux.png'
+// import bitbucket from '../assets/png/bitbucket.png'
+
 import canva from '../assets/svg/skills/canva.svg'
 
 
@@ -227,6 +233,17 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'es6':
+            return es6
+        case 'oop':
+            return oop
+        case 'source tree':
+            return sourceTree
+        case 'redux-toolkit':
+            return redux
+        // case 'bitbucket':
+        //     return bitbucket
+        
         default:
             break;
     }

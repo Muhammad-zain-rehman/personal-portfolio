@@ -31,8 +31,8 @@
 .education-card {
     display: flex;
     flex-direction: row;
-    align-items:flex-start;
-    justify-content: flex-start;
+    align-items:space-between;
+    justify-content: space-between;
     width: 90%;
     height: 140px;
     padding: 1.5rem;
