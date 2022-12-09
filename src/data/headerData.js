@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/Zain-Resume.pdf'
 import profile from '../assets/profile2.png'
 // import profile from '../assets/profile.jpg'
 
